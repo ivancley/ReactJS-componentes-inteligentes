@@ -1,12 +1,10 @@
 # ReactJS-componentes-inteligentes
-Componentes inteligentes para visualização de dados com ReactJS
+Componentes inteligentes para visualização de dados com ReactJS - versão DEMO
 # ReactJS Smart Components
 Componentes inteligentes para projetos ReactJS
 
 ## Objetivo
 Desenvolver componentes visuais reutilizáveis que possam interagir entre si de forma automática, poupando o tempo do desenvolvedor.
-
-## está é uma versão DEMO
 
 ## Principal funcionalidade 
 ### Crud automatizado
