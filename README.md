@@ -52,18 +52,39 @@ com base nessas informações é gerado essa tabela
 e ao clicar em "Novo" ou editar é gerado esse formulário 
 <img src="/formulario.png">
 
-Para o desenho do formulário foi necessário passar o modelo desejado, segue exemplo 
+Para o desenho do formulário foi necessário passar o modelo desejado onde cada linha da lista representa uma linha no formulário, segue exemplo 
 ```js
 const modeloFormulario = [
-    [{ field: "nome", disable: true, help: "Esse campo não pode ser alterado devido a testes" }],
-    [{ field: "idade", size: 2 }, { field: "peso", size: 2 }, { field: "salario", size: 2 }, { field: "sexo", size: 2 }, { field: "data nasc.", size: 4 }],
-    [{ field: "endereco", size: 4 }, { field: "numero", size: 2 }, { field: "bairro", size: 3 }, { field: "cidade", size: 3 }],
-    [{ field: "cpf" }, { field: "rg" }],
-    [{ field: "email" }, { field: "senha" }, { field: "telefone_fixo" }, { field: "celular" }]
+    [
+        { field: "nome", disable: true, help: "Esse campo não pode ser alterado devido a testes" }
+    ],
+    [
+        { field: "idade", size: 2 }, 
+        { field: "peso", size: 2 }, 
+        { field: "salario", size: 2 }, 
+        { field: "sexo", size: 2 }, 
+        { field: "data nasc.", size: 4 }
+    ],
+    [
+        { field: "endereco", size: 4 }, 
+        { field: "numero", size: 2 }, 
+        { field: "bairro", size: 3 }, 
+        { field: "cidade", size: 3 }
+    ],
+    [
+        { field: "cpf" }, 
+        { field: "rg" }
+    ],
+    [
+        { field: "email" }, 
+        { field: "senha" }, 
+        { field: "telefone_fixo" }, 
+        { field: "celular" }
+    ]
   ]
 ```
 
-###dependências 
+### dependências 
 ```shell
 npm install --save react-toastify 
 npm install --save react-spinners
